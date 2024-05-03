@@ -1,0 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.task-board {
+  min-height: 60vh;
+}
+
+.task-list {
+  min-height: 200px;
+}
+
+.task-card {
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.task-card.todo {
+  background-color: #f8f9fa;
+}
+
+.task-card.in-progress {
+  background-color: #fff3cd;
+}
+
+.task-card.done {
+  background-color: #d4edda;
+}
+
+.task-card.overdue {
+  border-left: 5px solid red;
+}
+
+.task-card.nearing-deadline {
+  border-left: 5px solid yellow;
+}
